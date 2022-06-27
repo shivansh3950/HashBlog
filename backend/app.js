@@ -11,3 +11,4 @@ app.use("/api/blog",blogRouter);
 mongoose.connect("mongodb+srv://admin:cNh0wG24ydyM6i1R@cluster0.9sfok.mongodb.net/?retryWrites=true&w=majority"
 ).then(()=>app.listen(8888)).then(()=>console.log("connected to database"))
 .catch((err)=>console.log(err));
+//shivansh gupta
